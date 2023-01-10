@@ -1,0 +1,200 @@
+@font-face {
+	font-family: iranyekan;
+	src: url("./font/YekanBakhFaNum-Regular.woff") format("woff");
+}
+@font-face {
+	font-family: iranyekanBold;
+	src: url("./font/YekanBakhFaNum-Bold.woff") format("woff");
+}
+body {
+	font-family: "iranyekan";
+}
+::-webkit-scrollbar {
+	width: 12px;
+	border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+	border-radius: 5px;
+	background-color: var(--mainColor);
+}
+::-webkit-scrollbar-button {
+	display: block;
+}
+:root {
+	--mainColor: #92b03d;
+	--secondColor: #131829;
+}
+body {
+	padding-top: 50px;
+	background-image: url("./img/bg.jpg");
+	/* background-size: contain; */
+	background-repeat: repeat;
+	background-position: center center;
+}
+.heroHeaderSection .container {
+	z-index: 99;
+}
+.heroHeaderSection .container img {
+	width: 100%;
+}
+.heroHeaderSection .content span {
+	color: var(--mainColor);
+}
+.heroHeaderSection .content .title {
+	font-size: 50px;
+	color: var(--secondColor);
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.heroHeaderSection .content .subTitle {
+	font-size: 20px;
+	line-height: 40px;
+	font-weight: bold;
+}
+.heroHeaderSection .content .details,
+.giveTo .details {
+	font-size: 18px;
+	line-height: 40px;
+	color: var(--secondColor);
+}
+.ourWriter,
+.buyBook,
+.giveTo {
+	margin-top: 50px;
+}
+.ourWriter .title,
+.buyBook .title,
+.giveTo .title {
+	font-size: 25px;
+	font-weight: 600;
+	color: var(--secondColor);
+	font-family: "iranyekanBold";
+}
+.seperatorTitle {
+	height: 6px;
+	width: 6px;
+	background-color: var(--mainColor);
+	border-radius: 20px;
+	position: relative;
+	margin: 5px 23px;
+}
+.seperatorTitle::after,
+.seperatorTitle::before {
+	content: "";
+	height: 3px;
+	width: 30px;
+	background-color: var(--mainColor);
+	position: absolute;
+	top: 3px;
+}
+.seperatorTitle::after {
+	right: auto;
+	left: 10px;
+}
+.seperatorTitle::before {
+	left: auto;
+	right: 10px;
+}
+.ourWriter .details {
+	font-size: 18px;
+	line-height: 38px;
+	margin-top: 20px;
+}
+.ourWriter .imageWriter {
+	border-radius: 15px;
+	overflow: hidden;
+}
+.ourWriter .imageWriter img {
+	width: 100%;
+}
+
+.buyBook .buyBox {
+	background-color: #eaf7e8;
+	text-align: center;
+	border: 2px dashed var(--mainColor);
+	border-radius: 15px;
+	height: 100%;
+}
+.buyBook .buyBox .buyBoxHeader {
+	border-bottom: 3px solid var(--mainColor);
+}
+.buyBook .buyBox .buyBoxHeader span {
+	display: block;
+	margin: 15px 5px;
+	font-size: 18px;
+	font-family: "iranyekanBold";
+}
+.buyBook .buyBox .buyBoxBody {
+	padding: 25px 20px;
+}
+.buyBook .buyBox .buyBoxBody .buyLink {
+	display: block;
+	margin-bottom: 20px;
+}
+.buyBook .buyBox .buyBoxBody .buyLink img {
+	width: 130px;
+}
+
+.giveTo img {
+	width: 100%;
+	border-radius: 8px;
+	margin-bottom: 15px;
+}
+footer {
+	background-color: var(--mainColor);
+	padding: 15px 0;
+	border-radius: 30px 30px 0 0;
+	margin-top: 80px;
+}
+footer span {
+	display: block;
+	font-family: "iranyekanBold";
+	font-size: 20px;
+	color: #fff;
+}
+/* footer .isbn {
+	text-align: left;
+} */
+@media screen and (max-width: 768px) {
+	body {
+		padding-top: 50px;
+	}
+	.heroHeaderSection .content .title {
+		font-size: 25px;
+	}
+	.heroHeaderSection .content .details,
+	.giveTo .details,
+	.ourWriter .details {
+		font-size: 15px;
+		line-height: 35px;
+		text-align: justify;
+	}
+	.heroHeaderSection .content .subTitle {
+		font-size: 18px;
+	}
+	.ourWriter .title,
+	.buyBook .title,
+	.giveTo .title {
+		font-size: 20px;
+	}
+	.seperatorTitle {
+		margin: 5px 35px;
+	}
+	footer span {
+		font-size: 16px;
+	}
+}
+
+.lb-dataContainer {
+	background-color: white;
+	padding-bottom: 5px;
+}
+
+.lb-details {
+	text-align: right !important;
+	color: black;
+}
+
+.lb-outerContainer {
+	border-radius: 4px 4px 0 0;
+}
