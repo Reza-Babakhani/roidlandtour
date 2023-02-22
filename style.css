@@ -208,3 +208,7 @@ footer span {
 	padding: 5px;
 	border-radius: 5px;
 }
+
+.isbn a {
+	text-decoration: none;
+}
