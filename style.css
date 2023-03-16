@@ -212,3 +212,55 @@ footer span {
 .isbn a {
 	text-decoration: none;
 }
+
+.justify {
+	text-align: justify;
+}
+
+/*-testimonial---*/
+
+.comments-section {
+	margin-top: 50px;
+}
+
+.comment-carousel {
+	margin-top: 25px;
+}
+.owl-prev:hover,
+.owl-next:hover {
+	background-color: transparent !important;
+}
+
+.comments-item {
+	background-color: #fff;
+	border: 10px var(--mainColor) solid;
+	padding: 25px;
+}
+
+.comment-message {
+	text-align: center;
+	justify-content: center;
+}
+
+.comment-person-name {
+	font-weight: bold;
+	text-align: center;
+	padding-top: 8px;
+}
+
+.comment-person-desc {
+	font-size: 14px;
+	text-align: center;
+	margin: 0 auto;
+	color: grey;
+	display: block;
+}
+
+.comment-person-img {
+	width: 72px !important;
+	height: 72px !important;
+	border: 3px solid black;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+/*---end testimonial---*/
