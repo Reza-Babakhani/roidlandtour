@@ -276,3 +276,14 @@ footer span {
 	margin: 0 auto;
 }
 /*---end testimonial---*/
+
+.instagram-fix {
+	position: fixed;
+	top: 20px;
+	left: 20px;
+}
+
+.instagram-fix img {
+	height: 40px;
+	width: 40px;
+}
